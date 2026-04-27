@@ -549,3 +549,20 @@ figure.effect-lexi figcaption::before, figure.effect-lexi p {
 @media (max-width: 420px) {
   .tm-section-3-left { padding: 70px 50px 80px 50px; }
 }
+
+        #message {
+            background: #ff4e4e;
+            color: white;
+            text-align: center;
+            margin-top: 20px;
+        }
+        #alertBox {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 999;
+            /* Tambahkan padding agar teks tidak mepet */
+            padding: 10px 20px; 
+            border-radius: 5px;
+        }
